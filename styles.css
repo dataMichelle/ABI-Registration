@@ -1057,8 +1057,17 @@ footer > a:last-child {
     height: 72px;
   }
 
+  nav {
+    gap: 12px;
+  }
+
   nav a {
     display: none;
+  }
+
+  nav a:first-child {
+    display: block;
+    font-size: 12px;
   }
 
   .hero {
