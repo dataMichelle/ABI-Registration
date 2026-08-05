@@ -1,6 +1,7 @@
-# ABI Family Reunion
+# ABI Tucson 2027 Registration
 
-A compact, responsive event page for Randa's Tucson reunion in summer 2027.
+A compact, responsive registration guide for the 21st Biennial Aramco Brat
+Reunion in Tucson, June 3–7, 2027.
 
 ## Run locally
 
@@ -11,5 +12,5 @@ server:
 python3 -m http.server 4173
 ```
 
-The RSVP interaction is a front-end prototype. Responses are saved only in the
-visitor's browser using `localStorage`.
+Placeholder registration, membership, hotel, store, Suq, and policy links show
+an in-page notice until their final destinations are supplied.
