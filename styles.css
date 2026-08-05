@@ -99,6 +99,8 @@ h1, h2 { font-family: "Shrikhand", serif; font-weight: 400; }
 .eyebrow span { display: inline-block; margin-right: 9px; padding: 5px 8px; border-radius: 99px; color: white; background: var(--ink); letter-spacing: .1em; }
 .eyebrow-coral { color: var(--coral-dark); }
 .eyebrow-gold { color: #9f6811; }
+.eyebrow-route { display: flex; align-items: center; gap: 9px; }
+.eyebrow-route::before { width: 26px; border-top: 2px dotted currentColor; content: ""; }
 h1 { margin-bottom: 20px; font-size: clamp(64px, 7vw, 104px); line-height: .88; letter-spacing: -.045em; }
 h1 em, h2 em { color: var(--coral); font-style: normal; }
 .hero-date { margin-bottom: 12px; font-size: 16px; font-weight: 700; }
@@ -240,6 +242,7 @@ h1 em, h2 em { color: var(--coral); font-style: normal; }
 .final-cta { position: relative; overflow: hidden; padding: 72px 24px; color: var(--ink); background: var(--gold); text-align: center; }
 .final-cta p { margin-bottom: 10px; text-transform: uppercase; font-size: 10px; font-weight: 700; letter-spacing: .15em; }
 .final-cta h2 { margin-bottom: 25px; font-size: clamp(42px, 6vw, 72px); line-height: .96; }
+.final-cta .closing-line { margin: -8px 0 24px; text-transform: none; font-family: "Shrikhand", serif; font-size: 18px; font-weight: 400; letter-spacing: 0; }
 .final-sun { position: absolute; top: 28px; left: 12%; opacity: .25; font-size: 110px; }
 footer { display: flex; min-height: 95px; align-items: center; justify-content: space-between; gap: 25px; padding: 20px max(30px, calc((100vw - 1120px)/2)); color: #b7c8c1; background: var(--ink); }
 footer p { margin: 0; font-size: 11px; }
